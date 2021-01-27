@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "all": "yarn lint:fix && yarn test",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "lint": "eslint src",
